@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
 import { Navigate, NavLink } from 'react-router-dom';
-
+import './assets/css/App.css'
 
 const Login = (props) =>{
     useEffect(()=>{
