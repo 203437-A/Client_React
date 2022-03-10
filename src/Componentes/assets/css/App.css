@@ -1,0 +1,290 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  background-size: cover ;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+/* Login */
+
+.containerL{
+  width: 320px;
+  height: 428px;
+  position: absolute;
+  background: radial-gradient(98.95% 98.95% at 0% 0%, #FFF5BF 22.92%, rgba(217, 199, 231, 0.9725) 75.37%);
+  box-shadow: 0px -3px 30px 8px rgba(0,0,0,0.61);
+  top: 25% !important;
+  left: 40%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login button{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  background: darkgray;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login h2{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login a{
+  text-decoration: none;
+  right: 200px;
+  font-size: 15px;
+  line-height: 20px;
+  color:darkslategray;
+  text-align: center;
+}
+
+.login a:hover{
+  color:darkblue;
+}
+
+/* Register */
+
+.containerR{
+  width: 320px;
+  height: 690px;
+  position: absolute;
+  background: radial-gradient(98.95% 98.95% at 0% 0%, #FFF5BF 22.92%, rgba(217, 199, 231, 0.9725) 75.37%);
+  box-shadow: 0px -3px 30px 8px rgba(0,0,0,0.61);
+  top: 4% !important;
+  left: 40%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 50px 30px;
+}
+
+.register h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.register label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+.register input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.register input[type="text"],
+.register input[type="email"],
+.register input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.register button{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  background: darkgray;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.register a{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color:darkslategray;
+}
+
+.register a:hover{
+  color: red;
+}
+
+/* Profile */
+
+.containerP{
+  width: 700px;
+  height: 690px;
+  position: absolute;
+  background: radial-gradient(98.95% 98.95% at 0% 0%, #FFF5BF 22.92%, rgba(217, 199, 231, 0.9725) 75.37%);
+  box-shadow: 0px -3px 30px 8px rgba(0,0,0,0.61);
+  top: 4% !important;
+  left: 26%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 50px 30px;
+}
+
+.profile h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile label {
+  margin: 15px;
+  padding: 20px;
+  font-weight: bold;
+  display:inline;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.profile input{
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.profile input[type="text"],
+.profile input[type="email"]{
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.imgP{
+  border-radius: 100%;
+  width: 220px;
+  height: 220px;
+}
+
+.imgP img{
+  position: relative;
+  left: 70%;
+  height: 210px;
+  min-height: 100%;
+  clip-path: circle(at center);
+}
+
+.inputI{
+  color: transparent;   
+}
+
+.profile .boton1{
+  width: 20%;
+  border: none;
+  background: darkgray;
+  height: 25px;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile .boton2{
+  width: 60%;
+  margin-left: 35px;
+  border: none;
+  background: darkgray;
+  height: 25px;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile .boton3{
+  width: 90%;
+  margin-left: 35px;
+  border: none;
+  background: darkgray;
+  height: auto;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile p{
+  font-size: 14px;
+  text-align: center;
+}
+
+.opcion1{
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+}
+.opcion2{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 245px;
+  width: 25%;
+}
+
+.opcion3{
+  display: flex;
+  margin: 10px;
+  margin-left: 225px;
+  width: 25%;
+}
